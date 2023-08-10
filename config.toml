@@ -14,7 +14,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 apkmirror-arch = "both"                                                               # both arm64-v8a and arm-v7a
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli
+cli-source = "inotia00/revanced-cli"
 rv-brand = ""
 
 [Music]
