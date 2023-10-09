@@ -14,7 +14,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 
 [Music-Extended]
 build-mode = "apk"
-excluded-patches = "custom-branding-music-name custom-branding-icon-revancify-blue custom-package-name"
+excluded-patches = "'custom-branding-music-name' 'custom-branding-icon-revancify-blue' 'custom-package-name'"
 included-patches = ""
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -26,7 +26,7 @@ rv-brand = "ReVanced Extended"
 
 [YouTube-Extended]
 build-mode = "apk"                                                                    # 'both', 'apk' or 'module'
-excluded-patches = "custom-branding-youtube-name custom-branding-icon-revancify-blue" # space-seperated patches to exclude (multiline strings are not supported)
+excluded-patches = "'custom-branding-youtube-name' 'custom-branding-icon-revancify-blue'" # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""                                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
